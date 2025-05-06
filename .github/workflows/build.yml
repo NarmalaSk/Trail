@@ -1,1 +1,15 @@
+name: Trail Build
 
+on:
+  push:
+     branches:
+          [ main , development ,feature ]
+jobs:
+   builds:
+       runs-on: ubuntu-latest
+       steps:
+          - name: codecheckout
+            uses: actions/checkout@v4.2.2
+            
+   
+   
