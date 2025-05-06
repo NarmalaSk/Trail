@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
+
+import { Analytics } from "@vercel/analytics/react"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Growth Tracker ',
+  description: 'Created with growth tracker team ',
+  generator: 'team',
 }
 
 export default function RootLayout({
