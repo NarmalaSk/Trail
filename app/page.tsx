@@ -71,7 +71,7 @@ export default function LandingPage() {
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/data.png?height=500&width=500"
                   alt="Dashboard Preview"
                   width={500}
                   height={500}
